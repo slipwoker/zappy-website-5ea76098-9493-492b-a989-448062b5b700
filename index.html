@@ -779,10 +779,10 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
 <a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
@@ -1293,31 +1293,29 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
     </div>
 </section>
 
-<section data-band-index="1" class="index-news-spotlight-section" data-layout-spec="בית-news-spotlight" dir="rtl">
+<section data-band-index="1" class="index-news-spotlight-section" data-layout-spec="בית-news-spotlight" dir="rtl" id="index-news-spotlight-section">
   <div class="index-news-spotlight-section__container">
     
     <!-- Breaking News Strip -->
     <div class="index-news-spotlight-section__breaking-bar">
       <div class="index-news-spotlight-section__breaking-accent"></div>
       <div class="index-news-spotlight-section__breaking-content">
-        <span class="index-news-spotlight-section__breaking-badge">
+        <p><span class="index-news-spotlight-section__breaking-badge">
           <svg data-element-type="icon" data-icon-type="svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"></circle></svg>
           חדשות חמות
         </span>
-        <p class="index-news-spotlight-section__breaking-text">
-          <span class="index-news-spotlight-section__breaking-dot">•</span>
-          ארד טרי: נבחרת ההתעמלות האמנותית עלתה לגמר באליפות אירופה — צפו בתקציר
-        </p>
+        </p><p class="index-news-spotlight-section__breaking-text" style="">
+          <span class="index-news-spotlight-section__breaking-dot">• זהב לנבחרת ההתעמלות בגביע העולם באיטליה&nbsp;</span></p>
       </div>
     </div>
 
     <!-- Main Editorial Grid -->
-    <div class="index-news-spotlight-section__grid">
+    <div class="index-news-spotlight-section__grid zappy-preserve-css-grid" data-zappy-grid-align="start" data-original-item-width="542" data-original-gap="24px" style="display: grid; --zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
       
       <!-- Lead Story Card (Right side in RTL) -->
-      <article class="index-news-spotlight-section__lead-card">
+      <article class="index-news-spotlight-section__lead-card" data-grid-item-index="0">
         <div class="index-news-spotlight-section__lead-media">
-          <img loading="lazy" decoding="async" data-placeholder="index-news-spotlight-image-1" data-context="Dramatic wide-angle photo of an Israeli Paralympic swimmer mid-stroke in a dark pool, water splashing, dramatic stadium lighting, cinematic mood" width="800" height="450" src="/assets/site-image-index-news-spotlight-image-1.webp" alt="שחיין פראלימפי ישראלי בפעולה בבריכה אולימפית" fetchpriority="low">
+          <img loading="lazy" decoding="async" data-placeholder="index-news-spotlight-image-1" data-context="Dramatic wide-angle photo of an Israeli Paralympic swimmer mid-stroke in a dark pool, water splashing, dramatic stadium lighting, cinematic mood" width="800" height="450" src="/assets/site-image-index-news-spotlight-image-1.webp" alt="שחיין פראלימפי ישראלי בפעולה בבריכה אולימפית" data-element-type="image" data-element-id="img-1784198849655-el94x1930" style="" fetchpriority="low">
           <span class="index-news-spotlight-section__category-tag">שחייה פראלימפית</span>
         </div>
         <div class="index-news-spotlight-section__lead-panel">
@@ -1333,53 +1331,53 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
           <p class="index-news-spotlight-section__lead-excerpt">
             השחיין הפראלימפי קבע שיא אישי חדש במשחה ל-200 מטר חופשי בתחרות ההכנה האחרונה לפני פריז 2024. דדאון סיים בזמן של 2:14.88 דקות והבטיח את מקומו בין המועמדים המובילים למדליה.
           </p>
-          <a href="#" class="index-news-spotlight-section__read-more">
+          <p class="zappy-editable"><a href="#" class="index-news-spotlight-section__read-more">
             קראו את הכתבה המלאה
             <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
           </a>
-        </div>
+        </p></div>
       </article>
 
       <!-- Secondary Stories Stack (Left side in RTL) -->
-      <div class="index-news-spotlight-section__secondary-stack">
+      <div class="index-news-spotlight-section__secondary-stack" data-grid-item-index="1">
         
         <article class="index-news-spotlight-section__story-card">
           <div class="index-news-spotlight-section__story-media">
-            <img loading="lazy" decoding="async" data-placeholder="index-news-spotlight-image-2" data-context="Israeli female judoka celebrating a victory on the mat, raising her arms, wearing a blue judogi, intense expression, sports arena background" width="400" height="250" src="/assets/site-image-index-news-spotlight-image-2.webp" alt="גודקת ישראלית חוגגת ניצחון על המזרן" fetchpriority="low">
+            <img loading="lazy" decoding="async" data-placeholder="index-news-spotlight-image-2" data-context="Israeli female judoka celebrating a victory on the mat, raising her arms, wearing a blue judogi, intense expression, sports arena background" width="400" height="250" src="/assets/site-image-index-news-spotlight-image-2.webp" alt="גודקת ישראלית חוגגת ניצחון על המזרן" data-element-type="image" data-element-id="img-1784198849657-qpupi1sef" style="" fetchpriority="low">
           </div>
           <div class="index-news-spotlight-section__story-content">
-            <span class="index-news-spotlight-section__story-category">ג'ודו</span>
-            <h3 class="index-news-spotlight-section__story-title">
+            <p class="zappy-editable"><span class="index-news-spotlight-section__story-category">ג'ודו</span>
+            </p><h3 class="index-news-spotlight-section__story-title">
               תמר מלכה השיגה את הקריטריון: תייצג את ישראל בגראנד סלאם פריז
             </h3>
-            <span class="index-news-spotlight-section__story-time">אתמול, 22:15</span>
-          </div>
+            <p class="zappy-editable"><span class="index-news-spotlight-section__story-time">אתמול, 22:15</span>
+          </p></div>
         </article>
 
         <article class="index-news-spotlight-section__story-card">
           <div class="index-news-spotlight-section__story-media">
-            <img loading="lazy" decoding="async" data-placeholder="index-news-spotlight-image-3" data-context="Israeli rhythmic gymnastics group performing with hoops in perfect synchronization, colorful leotards, bright arena lights" width="400" height="250" src="/assets/site-image-index-news-spotlight-image-3.webp" alt="נבחרת ההתעמלות האמנותית של ישראל בתרגיל חישוקים" fetchpriority="low">
+            <img loading="lazy" decoding="async" data-placeholder="index-news-spotlight-image-3" data-context="Israeli rhythmic gymnastics group performing with hoops in perfect synchronization, colorful leotards, bright arena lights" width="400" height="250" src="/assets/site-image-index-news-spotlight-image-3.webp" alt="נבחרת ההתעמלות האמנותית של ישראל בתרגיל חישוקים" data-element-type="image" data-element-id="img-1784198849659-5mj6z7xip" style="" fetchpriority="low">
           </div>
           <div class="index-news-spotlight-section__story-content">
-            <span class="index-news-spotlight-section__story-category">התעמלות אמנותית</span>
-            <h3 class="index-news-spotlight-section__story-title">
+            <p class="zappy-editable"><span class="index-news-spotlight-section__story-category">התעמלות אמנותית</span>
+            </p><h3 class="index-news-spotlight-section__story-title">
               מחנה אימונים אחרון: הבנות יוצאות לבולגריה להכנות אחרונות
             </h3>
-            <span class="index-news-spotlight-section__story-time">אתמול, 18:40</span>
-          </div>
+            <p class="zappy-editable"><span class="index-news-spotlight-section__story-time">אתמול, 18:40</span>
+          </p></div>
         </article>
 
         <article class="index-news-spotlight-section__story-card">
           <div class="index-news-spotlight-section__story-media">
-            <img loading="lazy" decoding="async" data-placeholder="index-news-spotlight-image-4" data-context="Israeli track and field athlete sprinting on a blue track, motion blur effect, stadium lights creating dramatic shadows, Olympic rings visible in background" width="400" height="250" src="/assets/site-image-index-news-spotlight-image-4.webp" alt="אצן ישראלי במרוץ על מסלול האתלטיקה" fetchpriority="low">
+            <img loading="lazy" decoding="async" data-placeholder="index-news-spotlight-image-4" data-context="Israeli track and field athlete sprinting on a blue track, motion blur effect, stadium lights creating dramatic shadows, Olympic rings visible in background" width="400" height="250" src="/assets/site-image-index-news-spotlight-image-4.webp" alt="אצן ישראלי במרוץ על מסלול האתלטיקה" data-element-type="image" data-element-id="img-1784198849660-6mg2n0yzz" style="" fetchpriority="low">
           </div>
           <div class="index-news-spotlight-section__story-content">
-            <span class="index-news-spotlight-section__story-category">אתלטיקה</span>
-            <h3 class="index-news-spotlight-section__story-title">
+            <p class="zappy-editable"><span class="index-news-spotlight-section__story-category">אתלטיקה</span>
+            </p><h3 class="index-news-spotlight-section__story-title">
               דור חדש על המסלול: הנבחרת הצעירה מכוונת לשיאים באליפות אירופה
             </h3>
-            <span class="index-news-spotlight-section__story-time">שלשום, 14:20</span>
-          </div>
+            <p class="zappy-editable"><span class="index-news-spotlight-section__story-time">שלשום, 14:20</span>
+          </p></div>
         </article>
 
       </div>
