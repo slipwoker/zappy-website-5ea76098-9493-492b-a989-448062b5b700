@@ -1,0 +1,86 @@
+# שר הטבעות — Generative Engine Optimization Map
+
+> An Israeli sports news website called 'Sar HaTaba'ot' (Lord of the Rings), dedicated to covering Olympic and Paralympic sports in Israel. The site features a news section and a photo gallery, combining a passion for elite athletics with national pride and a nod to the iconic Olympic rings symbolism in its name.
+
+---
+
+## Pages
+
+### בית
+https://-5ea76098.zappy5.app
+האתר המוביל בישראל לחדשות ספורט אולימפי ופראלימפי. קבלו סיקור מעמיק, תמונות עוצרות נשימה וכל מה שצריך לדעת על גיבורי הספורט הישראלי. הצטרפו עכשיו למסע!
+
+### חדשות
+https://-5ea76098.zappy5.app/news
+הדופק של הספורט הישראלי: דיווחים שוטפים, פרשנויות בלעדיות וניתוחי עומק מהזירה האולימפית והפראלימפית. אל תפספסו אף כותרת – היכנסו עכשיו להתעדכן!
+
+### גלריית תמונות
+https://-5ea76098.zappy5.app/gallery
+גלריה ויזואלית עוצרת נשימה של רגעי השיא מהספורט האולימפי והפראלימפי בישראל. חוו את האקשן, הרגש והגאווה הלאומית דרך עדשת המצלמה. כנסו להתרשם!
+
+### אודות
+https://-5ea76098.zappy5.app/about
+גלו את התשוקה שמאחורי שר הטבעות – בית לחדשות ספורט אולימפי ופראלימפי בישראל. למה אנחנו חיים את האתלטיקה העילית ואיך מחברים גאווה לאומית עם הרוח האולימפית. קראו עוד!
+
+### צור קשר
+https://-5ea76098.zappy5.app/contact
+יש לכם טיפ חם, סיפור מנצח או שאלה בוערת? צרו קשר עם מערכת שר הטבעות והיו חלק מהמהפכה האולימפית בישראל. אנחנו מחכים לשמוע מכם עוד היום!
+
+### תודה - שר הטבעות
+https://-5ea76098.zappy5.app/thank-you
+שר הטבעות - תודה - שר הטבעות
+
+## Legal & Policy
+
+### Privacy Policy
+https://-5ea76098.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-5ea76098.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-5ea76098.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-5ea76098.zappy5.app/contact
+- Endpoint: https://-5ea76098.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About שר הטבעות
+An Israeli sports news website called 'Sar HaTaba'ot' (Lord of the Rings), dedicated to covering Olympic and Paralympic sports in Israel. The site features a news section and a photo gallery, combining a passion for elite athletics with national pride and a nod to the iconic Olympic rings symbolism in its name.
+
+## Target Audience
+- אוהדי ספורט אולימפי ופראלימפי ישראלי
+- חובבי ספורט אולימפי ישראלי
+- תומכי ספורט פראלימפי ישראלי
+
+## Industry
+Sports News Media
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-5ea76098.zappy5.app/sitemap.xml
+- Robots: https://-5ea76098.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-5ea76098.zappy5.app/llms-full.txt
