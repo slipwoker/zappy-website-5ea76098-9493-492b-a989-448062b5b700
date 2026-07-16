@@ -7,41 +7,41 @@
 ## Pages
 
 ### בית
-https://-5ea76098.zappy5.app
+https://example.com
 האתר המוביל בישראל לחדשות ספורט אולימפי ופראלימפי. קבלו סיקור מעמיק, תמונות עוצרות נשימה וכל מה שצריך לדעת על גיבורי הספורט הישראלי. הצטרפו עכשיו למסע!
 
 ### חדשות
-https://-5ea76098.zappy5.app/news
+https://example.com/news
 הדופק של הספורט הישראלי: דיווחים שוטפים, פרשנויות בלעדיות וניתוחי עומק מהזירה האולימפית והפראלימפית. אל תפספסו אף כותרת – היכנסו עכשיו להתעדכן!
 
 ### גלריית תמונות
-https://-5ea76098.zappy5.app/gallery
+https://example.com/gallery
 גלריה ויזואלית עוצרת נשימה של רגעי השיא מהספורט האולימפי והפראלימפי בישראל. חוו את האקשן, הרגש והגאווה הלאומית דרך עדשת המצלמה. כנסו להתרשם!
 
 ### אודות
-https://-5ea76098.zappy5.app/about
+https://example.com/about
 גלו את התשוקה שמאחורי שר הטבעות – בית לחדשות ספורט אולימפי ופראלימפי בישראל. למה אנחנו חיים את האתלטיקה העילית ואיך מחברים גאווה לאומית עם הרוח האולימפית. קראו עוד!
 
 ### צור קשר
-https://-5ea76098.zappy5.app/contact
+https://example.com/contact
 יש לכם טיפ חם, סיפור מנצח או שאלה בוערת? צרו קשר עם מערכת שר הטבעות והיו חלק מהמהפכה האולימפית בישראל. אנחנו מחכים לשמוע מכם עוד היום!
 
 ### תודה - שר הטבעות
-https://-5ea76098.zappy5.app/thank-you
+https://example.com/thank-you
 שר הטבעות - תודה - שר הטבעות
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-5ea76098.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-5ea76098.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-5ea76098.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -51,8 +51,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://-5ea76098.zappy5.app/contact
-- Endpoint: https://-5ea76098.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -81,6 +81,6 @@ Sports News Media
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-5ea76098.zappy5.app/sitemap.xml
-- Robots: https://-5ea76098.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-5ea76098.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
